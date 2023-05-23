@@ -1,0 +1,82 @@
+name: orot
+description: orot
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+    # API
+  get: ^4.6.5
+  geolocator: ^9.0.2
+  http: ^0.13.6
+  flutter_naver_map: ^1.0.1
+
+    # UI Design
+  flutter_screenutil: ^5.6.1
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.19
+  flutter_svg: ^2.0.4
+  webview_flutter: ^3.0.4
+  google_fonts: ^4.0.3
+  dio: ^5.1.1
+  flutter_holo_date_picker: ^1.1.0
+  intl: ^0.17.0
+  app_settings: ^4.2.0
+  firebase_core: ^2.9.0
+  firebase_messaging: ^14.4.0
+  flutter_local_notifications: ^8.2.0
+  firebase_analytics: ^10.2.0
+  fluttertoast: ^8.2.1
+  flutter_switch: ^0.3.2
+  awesome_notifications: ^0.6.13
+  shared_preferences: ^2.1.0
+  local_auth: ^2.1.6
+  device_info_plus: ^8.2.0
+  image_picker: ^0.8.7+4
+  multi_image_picker: ^4.8.01
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/png/
+    - images/svg/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: images/fonts/Pretendard-Thin.otf
+          weight: 100
+        - asset: images/fonts/Pretendard-ExtraLight.otf
+          weight: 200
+        - asset: images/fonts/Pretendard-Light.otf
+          weight: 300
+        - asset: images/fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: images/fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: images/fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: images/fonts/Pretendard-Bold.otf
+          weight: 700
+        - asset: images/fonts/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: images/fonts/Pretendard-Black.otf
+          weight: 900
+    - family: SUIT_Medium
+      fonts:
+        - asset: images/fonts/SUIT-Medium.otf

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "201169508800",
+    "project_id": "orot-9d384",
+    "storage_bucket": "orot-9d384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201169508800:android:541b633948f32ecc235025",
+        "android_client_info": {
+          "package_name": "com.neurocircuit.orot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201169508800-vh9npdn889uogi2ulrsknvv8r6839mpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYSUiYb-1TGCodzIkN0WJWktvUSWx4bwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201169508800-vh9npdn889uogi2ulrsknvv8r6839mpc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "201169508800-dvu0b24nprmdshcqoludhtub7cmtu0v4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.neurocircuit.orot",
+                "app_store_id": "6447717574"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
