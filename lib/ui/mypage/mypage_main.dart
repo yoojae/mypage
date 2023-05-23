@@ -32,7 +32,7 @@ class MypageMain extends GetView<MypageMainController> {
                               width: 1.sw,
                               height: 8,
                               decoration: BoxDecoration(
-                                  color: const Color(0xfff5f7fa)
+                                  color: GlobalStyle.orot_gray_lightest,
                               )
                           ),
                           buildCustomerCenter(context)
@@ -82,7 +82,9 @@ class MypageMain extends GetView<MypageMainController> {
                   margin: EdgeInsets.only(right: 8.w),
                   child: Center(
                       child: SvgPicture.asset(
-                          'images/svg/danger_profile.svg' // png 이미지는 나오는데 svg가 안나옵니다
+                          controller.userType.value == "general"
+                          ? 'images/svg/normal_profile.svg'
+                          : 'images/svg/danger_profile.svg' // png 이미지는 나오는데 svg가 안나옵니다
                       ))
               ), // 수정
               Text("${controller.member?.name ?? ""}님 ",
